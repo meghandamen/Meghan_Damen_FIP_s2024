@@ -84,6 +84,9 @@ body {
 }
 
 /* --- main styles --- */
+.hide-n-seek {
+   display: none;
+}
 
 .can-container {
    height: 400px;
@@ -213,6 +216,10 @@ input[type="checkbox"]:checked + span::after {
 
 /* ---Tablet Library Grid Styles--- */
 @media screen and (min-width: 768px) {
+   .hide-n-seek {
+      display: block;
+   }
+
    #sticky-nav-con {
      position: sticky;
      top: 0px;
@@ -259,7 +266,10 @@ input[type="checkbox"]:checked + span::after {
 
 /* ---Desktop Library Grid Styles--- */
 @media screen and (min-width: 1200px) {
-    
+   .hide-n-seek {
+      display: block;
+   }
+
    #main-nav {
      margin-top: 2%;
      margin-bottom: 2%;
