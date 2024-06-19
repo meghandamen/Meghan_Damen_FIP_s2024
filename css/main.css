@@ -5,7 +5,11 @@
 
 body {
    background-color: #272829;
+   font-family: "Kodchasan", sans-serif;
+   font-weight: 400;
+   font-style: normal;
 }
+
 /* ---- main nav ---- */
 
 
@@ -37,6 +41,9 @@ body {
    background-color: #272829;
    height: 90px;
    width: 100%;
+   font-family: "Kodchasan", sans-serif;
+   font-weight: 400;
+   font-style: normal;
 }
  
 #main-nav ul li a:hover {
@@ -54,7 +61,6 @@ body {
    padding: 10px 0 10px 0;
    text-align: center;
    color: #e4e4e4;
-   font-family: 'Times New Roman', Times, serif;
 }
 
 #main-nav ul li {
@@ -128,6 +134,7 @@ body {
 }
 
 /* --- contact --- */
+
 .contact-info {
    height: 455px;
 }
