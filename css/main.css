@@ -234,6 +234,18 @@ input[type="checkbox"]:checked + span::after {
    content: "✨📰✨";
 }
 
+/* -- footer ---*/
+footer {
+   background-color: #393a3a;
+   color: #e4e4e4;
+   height: 100px;
+}
+
+footer div {
+   padding: 36px;
+   text-align: center;
+}
+
 /* ---Tablet Library Grid Styles--- */
 @media screen and (min-width: 768px) {
    .hide-n-seek {
