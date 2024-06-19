@@ -8,6 +8,7 @@ body {
 }
 /* ---- main nav ---- */
 
+
 #main-nav button {
    width: 40px;
    height: 40px;
@@ -88,6 +89,14 @@ body {
    display: none;
 }
 
+.seek-n-hide {
+   display: block;
+}
+
+.note-tittle-alt {
+   text-align: center;
+}
+
 .can-container {
    height: 400px;
    width: 200px;
@@ -119,6 +128,10 @@ body {
 }
 
 /* --- contact --- */
+.contact-info {
+   height: 455px;
+}
+
 #contact-hero-form {
    padding: 60px;
    margin-top: 40px;
@@ -220,6 +233,10 @@ input[type="checkbox"]:checked + span::after {
       display: block;
    }
 
+   .seek-n-hide {
+      display: none;
+   }
+
    #sticky-nav-con {
      position: sticky;
      top: 0px;
@@ -269,6 +286,11 @@ input[type="checkbox"]:checked + span::after {
    .hide-n-seek {
       display: block;
    }
+
+   .seek-n-hide {
+      display: none;
+   }
+
 
    #main-nav {
      margin-top: 2%;
