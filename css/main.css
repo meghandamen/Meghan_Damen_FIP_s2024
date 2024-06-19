@@ -224,6 +224,7 @@ button:active:after {
 
 .deals-checkbox {
    display: flex;
+   color: #e4e4e4;
 }
 
 .deals-checkbox span {
