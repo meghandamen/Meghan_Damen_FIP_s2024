@@ -87,7 +87,6 @@ body {
    font-family: "Kodchasan", sans-serif;
    font-weight: 400;
    font-style: normal;
-   margin-bottom: 50px;
 }
  
 #main-nav ul li a:hover {
@@ -170,8 +169,19 @@ body {
    width: 200px;
 }
 
+#flavourbuttons {
+   background-color: #fff2f2;
+   padding: 100px 0px;
+   border-bottom: #272829 10px solid;
+}
+
+.flavourbuttons:hover {
+   background-color: rgba(0, 174, 255, 0.349);
+   box-shadow: rgba(0, 174, 255, 0.842) 0px 0px 20px;
+}
+
 .text-container {
-   background-color: #f7bad4;
+   background-color: #fff2f2;
    padding: 40px;
    margin: 20px;
    margin-top: 100px;
