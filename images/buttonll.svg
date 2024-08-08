@@ -88,6 +88,25 @@
       .cls-17 {
         fill: url(#New_Gradient_Swatch_2-4);
       }
+      <!-- =========  custom css ========= -->
+      #ll-right-star {
+        transition: all 1s ease;
+        transform-origin: center;
+      }
+      
+      #Layer_2:hover #ll-right-star {
+        transform: scale(1.055);
+      }
+
+      #ll-left-star-2 {
+        transition: all 1s ease;
+        transform-origin: center;
+      }
+      
+      #Layer_2:hover #ll-left-star-2 {
+        transform: scale(1.055);
+      }
+
     </style>
     <linearGradient id="New_Gradient_Swatch_2" data-name="New Gradient Swatch 2" x1="175.6" y1="240.73" x2="174.25" y2="113.66" gradientUnits="userSpaceOnUse">
       <stop offset=".27" stop-color="#39b54a"/>

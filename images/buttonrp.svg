@@ -64,6 +64,24 @@
         stroke-miterlimit: 10;
         stroke-width: 4px;
       }
+      <!-- =========  custom css ========= -->
+      #ll-right-star {
+        transition: all 1s ease;
+        transform-origin: center;
+      }
+      
+      #Layer_2:hover #ll-right-star {
+        transform: scale(1.055);
+      }
+
+      #ll-left-star-2 {
+        transition: all 1s ease;
+        transform-origin: center;
+      }
+      
+      #Layer_2:hover #ll-left-star-2 {
+        transform: scale(1.055);
+      }
     </style>
     <linearGradient id="linear-gradient" x1="72.42" y1="246.72" x2="71.45" y2="82.22" gradientUnits="userSpaceOnUse">
       <stop offset=".27" stop-color="#ee2c7b"/>

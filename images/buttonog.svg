@@ -71,6 +71,24 @@
       .cls-13 {
         fill: #ee2a7b;
       }
+      <!-- =========  custom css ========= -->
+      #ll-right-star {
+        transition: all 1s ease;
+        transform-origin: center;
+      }
+      
+      #Layer_2:hover #ll-right-star {
+        transform: scale(1.055);
+      }
+
+      #ll-left-star-2 {
+        transition: all 1s ease;
+        transform-origin: center;
+      }
+      
+      #Layer_2:hover #ll-left-star-2 {
+        transform: scale(1.055);
+      }
     </style>
     <linearGradient id="linear-gradient" x1="90.89" y1="259.36" x2="91.87" y2="63.28" gradientUnits="userSpaceOnUse">
       <stop offset=".29" stop-color="#ee2c7b"/>

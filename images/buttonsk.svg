@@ -73,27 +73,25 @@
       .cls-13 {
         fill: url(#linear-gradient-4);
       }
-
-      <!-- ========= custom css ==========-->
-      #strawberrybutton {
-        transition: all 0.5s ease;
-        transform-origin: centre;
+      <!-- =========  custom css ========= -->
+      #ll-right-star {
+        transition: all 1s ease;
+        transform-origin: center;
+      }
+      
+      #Layer_2:hover #ll-right-star {
+        transform: scale(1.055);
       }
 
-      #strawberrybutton {
-        transform: x(-20px) y(40px)
+      #ll-left-star-2 {
+        transition: all 1s ease;
+        transform-origin: center;
       }
-
+      
+      #Layer_2:hover #ll-left-star-2 {
+        transform: scale(1.055);
+      }
     </style>
-    <script>
-      let svg = document.querySelector("#strawberrykiwibutton");
-
-      function logID() {
-        console.log(this.id);
-      }
-
-      svg.addEventListener("click", logID);
-    </script>
     <linearGradient id="linear-gradient" x1="66.98" y1="113" x2="66.57" y2="287.21" gradientUnits="userSpaceOnUse">
       <stop offset=".32" stop-color="#aed138"/>
       <stop offset=".35" stop-color="#bea649"/>
