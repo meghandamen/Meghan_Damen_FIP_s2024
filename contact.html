@@ -8,9 +8,18 @@
         <title>Quatro FIP Meghan Damen</title>
     </head>
     <body>
+        <section id="hero" >
+            <h2 class="hidden">main hero image</h2>
+            <div class="box2">
+                <img src="images/poste01.png" alt="quatro promotional poster">
+            </div>
+            <div class="box1">
+                <img src="images/quatroTittleCard.png" alt="quarto Title Card">
+            </div>
+        </section>
         <div id="sticky-nav-con">
             <header class="grid-con" id="main-header">
-                <nav id="main-nav" class="col-span-1 m-col-start-4 m-col-end-11">
+                <nav id="main-nav" class="col-span-1 m-col-start-4 m-col-end-11 l-col-start-5 l-col-end-12">
                     <h2 class="hidden">Main Navigation</h2>
                     <button id="button"></button>
                     <div id="burger-con" class="col-span-1">
@@ -18,31 +27,26 @@
                             <li><a href="index.html">HOME</a></li>
                             <li><a href="#">ABOUT US</a></li>
                             <li><a href="contact.html">CONTACT</a></li>
-                            <li><a href="#">INTERNATIONAL</a></li>
+                            <li><a href="shop.html">SHOP</a></li>
                             <li><a href="#">ACCOUNT</a></li>
                         </ul>
                     </div>
                 </nav>
 
-                <div id="logo" class="col-start-2 col-end-4 m-col-start-1 m-col-end-4">
-                    <img src="images/quartoLogo.svg" alt="Quatro Logo">
+                <div id="logo" class="col-start-2 col-end-4 m-col-start-1 m-col-end-4 l-col-start-2 l-col-end-5">
+                    <img src="images/quartoLogo.svg" alt="Quatro Logo" height="70px">
                 </div>
 
-
                 <div>
-                    <img src="images/shoppingcart.svg" id="shopping-cart" alt="shopping cart icon" class="col-span-1">
+                    <img src="images/shoppingcart.svg" id="shopping-cart" alt="shopping cart icon" class="col-start-4 col-end-5 m-col-start-12 col-end-13">
                 </div>
             </header>
         </div>
         <main>
-            <section id="hero" class="col-span-full">
-                <h2 class="hidden">main hero image</h2>
-                <img src="images/poste01.png" alt="quatro promotional poster">
-            </section>
 
             <div>
                 <section class="grid-con contact">
-                    <div class="text-container contact-info col-span-4 m-col-span-6">
+                    <div class="text-container contact-info col-start-1 col-end-5 m-col-start-1 m-col-end-6">
                         <h2 class="hidden">Contact Information</h2>
                         <div id="contact-hero-text">
                             <p>Thank you for taking the time to contact our customer support. Please text or email our customer support for further inquiries.</p>
@@ -59,13 +63,13 @@
                     </div>
 
 
-                    <div id="contact-hero-form" class="m-col-span-6 col-span-4">
+                    <div id="contact-hero-form" class="m-col-start-7 m-col-end-13 col-start-1 col-end-5">
                         <form action="contact-hero-form" method="post" enctype="text/plain">
                             <input name="fullName" type="text" required placeholder="First & Last Name">
                             <input name="contactInfo" type="text" required placeholder="Phone number or Email">
                             <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
                             <div class="deals-checkbox"><input type="checkbox"><span>Sign up for our monthly newspaper</span></div>
-                            <button name="submit" type="submit"></button>
+                            <button id="sendbutton" name="submit" type="submit"></button>
                         </form>
                     </div>
                 </section>
