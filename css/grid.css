@@ -34,6 +34,7 @@
     grid-template-columns: repeat(12, minmax(0,1fr));
   }
   
+
   .m-col-span-full {grid-column: 1/-1;}
   .m-col-start-1 {grid-column-start: 1;}
   .m-col-start-2 {grid-column-start: 2;}

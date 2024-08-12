@@ -4,10 +4,18 @@
 }
 
 body {
-   background-color: #cbe5ff;
+   background-color: #d6f6ff;
    font-family: "Kodchasan", sans-serif;
    font-weight: 400;
    font-style: normal;
+}
+
+#bodybackground {
+   background-image: url(../images/background-big.png);
+   background-size: cover;
+   background-repeat: no-repeat; 
+   padding-bottom: 100px;
+   background-position: center;
 }
 
 /* ----- hero animation ------- */
@@ -150,7 +158,7 @@ body {
 }
 
 .can-container {
-   height: 400px;
+   height: 450px;
    width: 200px;
 }
 
@@ -165,7 +173,7 @@ body {
 }
 
 .alt-can-container {
-   height: 400px;
+   height: 450px;
    width: 200px;
 }
 
@@ -196,6 +204,41 @@ body {
 .flavour-section {
    padding-top: 100px;
    padding-bottom: 100px;
+   margin-top: 0px;
+}
+
+.see-more {
+   padding: 12px 28px;
+   background: #f7bad4;
+   color: #fff;
+   border: 5px solid #000000;
+   box-shadow: #000000 15px 15px;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end; 
+   margin-top: 10px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   margin-left: 20px;
+}
+
+.see-more a {
+   text-decoration: none;
+   color: #000;
+   font-size: large;
+}
+
+.see-more:hover {
+   background-color: #f7bad4;
+   border: 5px solid #000000;
+   box-shadow: none;
+   animation: changeform;
+   animation-duration: 15s;
+   animation-timing-function: ease;
+   animation-iteration-count: inherit;
+   margin-top: 10px;
+   margin-left: 30px;
 }
 
 /* --- contact --- */
@@ -233,11 +276,11 @@ body {
    flex-direction: column;
 }
 
-#contact-hero-form input, textarea {
+#contact-hero-form .boxshadow, textarea {
    padding: 22px;
    border: 5px solid #000;
    box-shadow: #000 15px 15px;
-   background-color: rgb(210, 232, 255);
+   background-color: rgb(255, 227, 249);
    margin-bottom: 30px;
    font: inherit;
    width: auto;
@@ -291,7 +334,8 @@ body {
 
 .deals-checkbox {
    display: flex;
-   color: #e4e4e4;
+   color: #000000;
+   font-weight: 600;
 }
 
 .deals-checkbox span {
@@ -302,11 +346,12 @@ input[type="checkbox"]:checked + span::after {
    content: "✨📰✨";
 }
 
+
 /* -- footer ---*/
 footer {
-   background-color: #393a3a;
+   background-color: #1b1b1b;
    color: #e4e4e4;
-   height: 100px;
+   height: 200px;
 }
 
 footer div {
@@ -364,6 +409,15 @@ footer div {
 
    #logo {
      order: -1;
+   }
+
+   .can-container {
+      height: 400px;
+      width: 200px;
+   }
+   .alt-can-container {
+      height: 400px;
+      width: 200px;
    }
  
 }
