@@ -359,6 +359,65 @@ footer div {
    text-align: center;
 }
 
+/* --- shop page styles --- */
+.hide-n-seek-2 {
+   display: none;
+}
+
+.shopbody {
+   background-color: #d8ffff;
+   color: #ffddeb;
+}
+
+.shop-main p {
+   font-size: xx-large;
+   text-align: center;
+   padding: 60px;
+}
+
+.fasle-product-size {
+   height: 400px;
+   width: 400px;
+}
+
+.product-container {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: repeat(13, 1fr);
+   gap: 25px;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+.product-section {
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+.product-img {
+   border: 5px solid #000;
+   box-shadow: #000 15px 15px;
+}
+
+.fasle-product-size {
+   border: 5px solid #000;
+   box-shadow: #000 15px 15px;
+   color: #272829;
+   background-color: #f7bad4;
+   font-weight: 700;
+}
+
+.product-img:hover {
+   background-color: rgba(0, 174, 255, 0.349);
+   box-shadow: rgba(0, 174, 255, 0.842) 0px 0px 20px;
+   animation: changeform;
+   animation-duration: 15s;
+   animation-timing-function: ease;
+   animation-iteration-count: inherit;
+}
+
+
 /* ---Tablet Library Grid Styles--- */
 @media screen and (min-width: 768px) {
    .hide-n-seek {
@@ -419,12 +478,25 @@ footer div {
       height: 400px;
       width: 200px;
    }
+
+   .product-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+   }
  
 }
 
 /* ---Desktop Library Grid Styles--- */
 @media screen and (min-width: 1200px) {
    .hide-n-seek {
+      display: block;
+   }
+
+   .hide-n-seek-2 {
       display: block;
    }
 
@@ -450,6 +522,15 @@ footer div {
 
    #main-header {
      height: 100px;
+   }
+
+   .product-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      justify-content: center;
+      align-items: center;
+      margin: auto;
    }
  
 }
