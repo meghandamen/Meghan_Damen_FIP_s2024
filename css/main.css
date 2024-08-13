@@ -8,6 +8,7 @@ body {
    font-family: "Kodchasan", sans-serif;
    font-weight: 400;
    font-style: normal;
+   margin: 0;
 }
 
 #bodybackground {
@@ -45,6 +46,8 @@ body {
    top: 0;
    animation: QuatroHero 2s ease 10s backwards;
    opacity: 0;
+   margin: 0px;
+   padding: 0px;
 }
 
 @keyframes QuatroHero {
@@ -61,6 +64,9 @@ body {
    }
 }
 
+#hero {
+   overflow: hidden;
+}
 /* ---- main nav ---- */
 
 
