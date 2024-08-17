@@ -19,7 +19,7 @@ body {
    background-position: center;
 }
 
-video {
+main video {
    width: 100%;
    border: 5px solid #000000;
    box-shadow: #000000 15px 15px;
@@ -36,6 +36,16 @@ video {
    display: flex;
    justify-content: center;
    opacity: 1;
+}
+
+.box2 {
+   top: 0;
+   margin: 0;
+   padding: 0;
+}
+
+.box2 video {
+   width: 100%;
 }
 
 #hero {
