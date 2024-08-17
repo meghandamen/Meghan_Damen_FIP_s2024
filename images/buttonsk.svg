@@ -85,15 +85,7 @@
       }
 
     </style>
-    <script>
-      let svg = document.querySelector("#strawberrykiwibutton");
-
-      function logID() {
-        console.log(this.id);
-      }
-
-      svg.addEventListener("click", logID);
-    </script>
+    
     <linearGradient id="linear-gradient" x1="66.98" y1="113" x2="66.57" y2="287.21" gradientUnits="userSpaceOnUse">
       <stop offset=".32" stop-color="#aed138"/>
       <stop offset=".35" stop-color="#bea649"/>
