@@ -35,45 +35,7 @@ video {
 .box1 {
    display: flex;
    justify-content: center;
-   animation: QuatroHero 2s ease 5s backwards;
    opacity: 1;
-}
-
-@keyframes QuatroHero {
-   0% {
-       opacity: 1;
-   }
-   50% {
-       opacity: 1;
-       transform: translateX(0px);
-   }
-   100% {
-       opacity: 1;
-       transform: translateX(-2000px);
-   }
-}
-
-.box2 {
-   position: absolute;
-   top: 0;
-   animation: QuatroHero 2s ease 10s backwards;
-   opacity: 0;
-   margin: 0px;
-   padding: 0px;
-}
-
-@keyframes QuatroHero {
-   0% {
-       opacity: 1;
-   }
-   50% {
-       opacity: 1;
-       transform: translateX(0px);
-   }
-   100% {
-       opacity: 1;
-       transform: translateX(-2000px);
-   }
 }
 
 #hero {
@@ -228,7 +190,7 @@ video {
 .see-more {
    padding: 12px 28px;
    background: #f7bad4;
-   color: #fff;
+   color: #000000;
    border: 5px solid #000000;
    box-shadow: #000000 15px 15px;
    transition: all 200ms ease-in;
@@ -241,10 +203,12 @@ video {
    margin-left: 20px;
 }
 
-.see-more a {
+.see-more h3 {
    text-decoration: none;
    color: #000;
    font-size: large;
+   padding: 0;
+   margin: 0;
 }
 
 .see-more:hover {
